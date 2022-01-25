@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Section from "./Section";
 import info from "../info";
+import Footer from "./Footer";
 
 const Container = styled.div`
   width: 100vw;
@@ -20,9 +21,11 @@ const Home = () => {
           buttonOne={item.buttonOne}
           buttonTwo={item.buttonTwo}
           twoButtons={item.twoButtons}
-          FirstSection={item.firstSection}
+          firstSection={item.firstSection}
+          lastSection={item.lastSection}
         />
       ))}
+      {/* <Footer /> */}
     </Container>
   );
 };

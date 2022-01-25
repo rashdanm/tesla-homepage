@@ -43,7 +43,7 @@ const info = [
     desktop: "accessories-desktop",
     heading: "Accessories",
     buttonOne: "shop now",
-    footer: "true",
+    lastSection: true,
   },
 ];
 

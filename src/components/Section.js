@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Button from "./Button";
 import { IoChevronDownSharp } from "react-icons/io5";
+import Footer from "./Footer";
 
 const Wrapper = styled.div`
   background-image: ${(props) => `url("/images/${props.mobileImg}.jpg")`};
@@ -69,7 +70,8 @@ const Section = ({
   twoButtons,
   buttonOne = "custom order",
   buttonTwo = "available inventory",
-  FirstSection,
+  firstSection,
+  lastSection,
 }) => {
   return (
     <Wrapper mobileImg={mobileImg} desktopImg={desktopImg}>
@@ -82,7 +84,7 @@ const Section = ({
           <Button buttonText={buttonOne} />
           {twoButtons && <Button buttonText={buttonTwo} />}
         </ButtonsWrapper>
-        {FirstSection && (
+        {firstSection && (
           <SectionOneBottom>
             <SectionOneBottomText>
               Schedule a Touchless Test Drive
@@ -92,6 +94,7 @@ const Section = ({
             </ChevronWrapper>
           </SectionOneBottom>
         )}
+        {lastSection && <Footer />}
       </BottomSection>
     </Wrapper>
   );

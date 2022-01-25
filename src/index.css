@@ -8,3 +8,11 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans;
     overflow-x: hidden;
 }
+
+li {
+    list-style: none;
+  }
+
+a {
+    text-decoration: none;
+  }
