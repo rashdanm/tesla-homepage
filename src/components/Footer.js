@@ -37,7 +37,6 @@ const DesktopItem = styled.li`
 `;
 
 const Footer = () => {
-  //   const d = new Date();
   const year = new Date().getFullYear();
   return (
     <Container>
@@ -55,7 +54,7 @@ const Footer = () => {
           <a href="#">Careers</a>
         </li>
         <li>
-          <a href="#">News</a>{" "}
+          <a href="#">News</a>
         </li>
         <DesktopItem>
           <a href="#">Locations</a>

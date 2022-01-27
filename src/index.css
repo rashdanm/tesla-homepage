@@ -5,8 +5,9 @@
 }
 
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans;
+    font-family: "Gotham";
     overflow-x: hidden;
+  
 }
 
 li {
@@ -15,4 +16,5 @@ li {
 
 a {
     text-decoration: none;
+    color: inherit;
   }
