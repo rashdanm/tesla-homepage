@@ -5,7 +5,6 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   text-transform: uppercase;
   width: 90vw;
   height: 40px;

@@ -1,3 +1,38 @@
+:root {
+  --gray: rgb(57, 60, 65);
+  --grayBlack: rgb(24, 27, 33);
+  --lightGray: rgb(92, 93, 97);
+
+
+}
+
+@font-face {
+  font-family: "Gotham-Black";
+  src: url('./fonts/Gotham-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: url('./fonts/GothamBook.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url('./fonts/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Gotham-Light";
+  src: url('./fonts/Gotham-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Gotham-Thin";
+  src: url('./fonts/Gotham-Thin.otf') format('opentype');
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +40,7 @@
 }
 
 body {
-    font-family: "Gotham";
+    font-family: "Gotham-Book";
     overflow-x: hidden;
   
 }

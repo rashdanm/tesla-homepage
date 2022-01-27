@@ -3,6 +3,7 @@ import styled from "styled-components";
 import MenuNav from "./MenuNav";
 
 const Container = styled.div`
+  color: var(--grayBlack);
   width: 100vw;
   padding-left: 20px;
   padding-right: 20px;
@@ -23,6 +24,9 @@ const Container = styled.div`
 `;
 
 const Center = styled.div`
+  font-family: "Gotham-Light";
+  font-size: 14px;
+  font-weight: 700;
   padding-left: 40px;
   ul {
     display: none;
@@ -40,6 +44,9 @@ const Center = styled.div`
 `;
 
 const Right = styled.div`
+  font-family: "Gotham-Light";
+  font-size: 14px;
+  font-weight: 700;
   ul {
     display: flex;
   }
@@ -58,8 +65,11 @@ const DesktopItem = styled.li`
 `;
 
 const MenuButton = styled.li`
+  font-size: 14px;
+  font-weight: 700;
   display: block;
   cursor: pointer;
+  padding-left: 20px;
 `;
 
 const Header = () => {

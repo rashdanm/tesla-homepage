@@ -21,8 +21,20 @@ const Wrapper = styled.div`
   }
 `;
 const TopSection = styled.div`
-  padding-top: 100px;
+  padding-top: 110px;
   text-align: center;
+  color: var(--gray);
+
+  h1 {
+    font-family: "Gotham-Book";
+    font-size: 40px;
+  }
+
+  h2 {
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--lightGray);
+  }
 `;
 const BottomSection = styled.div`
   display: flex;
@@ -36,7 +48,7 @@ const ButtonsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: green;
+  ${"" /* background: green; */}
   margin-bottom: 20px;
   @media (min-width: 768px) {
     flex-direction: row;
@@ -48,14 +60,16 @@ const SectionOneBottom = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: yellow;
+  ${"" /* background: yellow; */}
   padding-bottom: 0px;
 `;
 
 const SectionOneBottomText = styled.div`
-  border-bottom: 1px solid black;
+  color: var(--grayBlack);
+  border-bottom: 1px solid var(--grayBlack);
   font-size: 14px;
   margin-bottom: 10px;
+  line-height: 8px;
 `;
 
 const ChevronWrapper = styled(IoChevronDownSharp)`
@@ -77,7 +91,7 @@ const Section = ({
     <Wrapper mobileImg={mobileImg} desktopImg={desktopImg}>
       <TopSection>
         <h1>{heading}</h1>
-        <p>{text}</p>
+        <h2>{text}</h2>
       </TopSection>
       <BottomSection>
         <ButtonsWrapper>

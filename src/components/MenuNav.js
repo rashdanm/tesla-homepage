@@ -5,6 +5,9 @@ import { VscGlobe } from "react-icons/vsc";
 import { VscChevronRight } from "react-icons/vsc";
 
 const Container = styled.div`
+  font-family: "Gotham-Book";
+  color: var(--grayBlack);
+  font-size: 14px;
   overflow-y: auto;
   z-index: 900;
   position: fixed;
@@ -42,12 +45,13 @@ const CloseButton = styled(IoCloseOutline)`
 `;
 
 const Bottom = styled.div`
-  padding-top: 1rem;
+  padding-top: 10px;
   display: flex;
 `;
 
 const Globe = styled(VscGlobe)`
-  font-size: 1.5rem;
+  font-size: 24px;
+  color: var(--gray);
 `;
 
 const ChevronRight = styled(VscChevronRight)`
@@ -56,17 +60,18 @@ const ChevronRight = styled(VscChevronRight)`
 `;
 
 const Text = styled.div`
-  padding-left: 1rem;
+  padding-left: 10px;
   padding-top: 0.2rem;
 
   h4 {
-    font-weight: 400;
+    font-weight: 900;
   }
 
   p {
-    line-height: 2rem;
+    line-height: 1.6rem;
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: 100;
+    color: var(--lightGray);
   }
 `;
 

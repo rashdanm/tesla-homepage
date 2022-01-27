@@ -2,8 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
+  color: var(--lightGray);
   font-size: 0.8rem;
-  background: yellow;
+  ${"" /* background: yellow; */}
   padding-bottom: 10px;
   padding-top: 30px;
   position: relative;
